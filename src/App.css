@@ -1,4 +1,196 @@
-.App {
+/* .App {
+  text-align: center;
+  padding: 2rem 1rem;
+} */
+
+.error {
+  color: #fc8181;
+  font-size: 0.75rem;
+  text-align: left !important;
+  margin-top: 0.25rem;
+}
+.container_body {
+  margin: 50px 80px 80px 80px;
+}
+
+Form {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+Form h2 {
+  text-transform: uppercase;
+}
+
+.split_box {
+  display: flex;
+  box-shadow: rgb(0 0 0 / 12%) 1px 3px 8px 11px,
+    rgb(0 0 0 / 24%) 1px 2px 11px 3px;
+}
+.split_box .section_cl {
+  width: 100%;
+}
+.split_box .info {
+  padding: 30px 20px 10px 20px;
+  text-align: justify;
+  color: #fff;
+  background: #6495ed;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.split_box .info .req {
+  color: #ed4848;
+}
+.split_box .form_deatils {
+  background: #fff;
+  color: #6495ed;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  /* box-shadow: 2px 0px 9px 3px #6495ed; */
+}
+
+.text_field_deatils input {
+  margin: 5px 5px 2px 5px;
+  padding: 5px 5px 5px 10px;
+  width: 370px;
+  border-radius: 18px;
+  border: 2px solid#757575b2;
+  background: #e5e4e279;
+}
+.text_field_deatils input:focus {
+  outline: none;
+  border: 2px solid rgba(255, 0, 0, 0.504);
+}
+.text_field_deatils {
+  margin-top: 10px;
+}
+select {
+  margin: 5px 5px 2px 5px;
+  padding: 13px 5px 5px 10px;
+  width: 370px;
+  border-radius: 18px;
+  border: 2px solid#757575b2;
+  background: #e5e4e279;
+  color: #4578bb;
+  text-align: justify;
+}
+select:focus {
+  outline: none;
+  border: 2px solid#6495ed;
+}
+select option {
+  color: #4578bb;
+  margin: 0 30px;
+  width: 150px;
+}
+Form button {
+  text-align: center;
+  width: 370px;
+  border-radius: 18px;
+  margin: 20px 0;
+  padding: 5px 5px 5px 10px;
+  background: #6495ed;
+  color: #fff;
+  border: 2px solid#6495ed;
+}
+Form button:hover {
+  background: #fff;
+  color: #6495ed;
+}
+
+Form .CustomCheckbox {
+  margin: 220px;
+}
+button:disabled {
+  opacity: 0.35;
+}
+input::placeholder,
+select::placeholder {
+  color: #a0aec0;
+}
+input[type="checkbox"] {
+  width: fit-content;
+  margin-right: 0.5rem;
+  transform: scale(1.25);
+}
+
+.checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+}
+.our_info h3 {
+  font-size: 29px;
+  font-weight: 500;
+}
+.our_info .FromHader-body .description_about {
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.our_info .FromHader-body .book_title {
+  font-size: 17px;
+  font-weight: 600;
+}
+.our_info .FromHader-body .alertText {
+  font-size: 12px;
+  font-weight: 600;
+}
+@media only screen and (max-width: 600px) {
+  .split_box {
+    flex-direction: column;
+  }
+  .container_body {
+    margin: 0;
+  }
+  .our_info h3 {
+    font-size: 23px;
+  }
+  .our_info .FromHader-body .description_about {
+    font-size: 12px;
+  }
+  .our_info .FromHader-body .book_title {
+    font-size: 15px;
+  }
+  .points {
+    font-size: 14px;
+  }
+  .our_info .FromHader-body .alertText {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  Form h2 {
+    font-size: 22px;
+  }
+  .text_field_deatils input {
+    width: 313px;
+  }
+  select {
+    width: 313px;
+  }
+  Form button {
+    width: 313px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .container_body {
+    margin: 0;
+  }
+  .split_box {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .split_box {
+    flex-direction: row;
+  }
+  .container_body {
+    margin: 50px 80px 80px 80px;
+  }
+}
+/* .App {
   text-align: center;
   padding: 2rem 1rem;
 }
@@ -104,4 +296,10 @@ button:disabled {
 .btn_sub {
   padding: 10px 0;
   color: #fff;
-}
+} */
+
+/* .error {
+  position: absolute;
+  color: red;
+  font-size: 0.7rem;
+} */

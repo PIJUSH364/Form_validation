@@ -1,7 +1,6 @@
-import PackageBooking from "./components/PackageBooking";
-import Information from "./components/Information";
 import "./App.css";
-
+import { Signup } from "./Components/Signup";
+import Information from "./Components/Information";
 function App() {
   return (
     <div className="container_body">
@@ -10,7 +9,7 @@ function App() {
           <Information />
         </div>
         <div className="section_cl form_deatils">
-          <PackageBooking />
+          <Signup />
         </div>
       </div>
     </div>
@@ -18,3 +17,9 @@ function App() {
 }
 
 export default App;
+
+// {
+//   /* <div className="container mt-3">
+// <div className="row">
+//   <div className="col-md-5"> */
+// }

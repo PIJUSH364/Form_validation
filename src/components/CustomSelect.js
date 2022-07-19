@@ -5,13 +5,15 @@ const CustomSelect = ({ label, ...props }) => {
 
   return (
     <>
-      <label>{label}</label>
-      <select
-        {...field}
-        {...props}
-        className={meta.touched && meta.error ? "input-error" : ""}
-      />
-      {meta.touched && meta.error && <div className="error">{meta.error}</div>}
+      {/* <label>{label}</label> */}
+      <div className="text_field_deatils">
+            <select
+              {...field}
+              {...props}
+              className={`form_field${meta.touched && meta.error ? "input-error" : ""}`}
+            />
+            {meta.touched && meta.error && <div className="error">{meta.error}</div>}
+      </div>
     </>
   );
 };

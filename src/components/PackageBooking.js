@@ -27,7 +27,7 @@ const PackageBooking = () => {
     >
       {({ isSubmitting }) => (
         <Form>
-          <h1 className="title_heading">Package Booking Form</h1>
+          <h2 className="title_heading">Package Booking Form</h2>
 
           <CustomInput
             label="Full Name"
@@ -80,7 +80,11 @@ const PackageBooking = () => {
             placeholder="Any Special Demand About Package(Addons)"
           ></CustomInput>
 
-          <CustomCheckbox type="checkbox" name="acceptedTos" />
+          <CustomCheckbox
+            className="CustomCheckbox"
+            type="checkbox"
+            name="acceptedTos"
+          />
           <button className="btn_sub" disabled={isSubmitting} type="submit">
             Submit
           </button>
